@@ -22,12 +22,6 @@
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -84,6 +78,6 @@ text-decoration: none;
   background: #2f80ed;
   position: absolute;
   right: 0;
-  padding-top: 64px;
+  top: 64px;
   z-index: 0;
 }
