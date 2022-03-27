@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   padding-left: 64px;
-  /* выше установили ограничения для секции */
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -80,4 +79,45 @@ text-decoration: none;
   right: 0;
   top: 64px;
   z-index: 0;
+}
+
+.descripton {
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.two-columns__brief {
+  margin: 0;
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  padding: 0 0 30px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
 }
