@@ -1,14 +1,10 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/* header */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -21,7 +17,6 @@
   padding-left: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -81,6 +76,10 @@ text-decoration: none;
   z-index: 0;
 }
 
+
+/* content */
+
+/* description */
 .description {
   color: #000000;
   display: flex;
@@ -106,6 +105,7 @@ text-decoration: none;
 .two-columns__main-text {
   min-width: 784px;
   width: 80%;
+  margin: 0 0 -30px;
 }
 
 .two-columns__paragraph {
