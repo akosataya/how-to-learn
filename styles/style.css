@@ -87,7 +87,7 @@ color: #2f80ed;
   color: #000000;
   display: flex;
   justify-content: center;
-  margin: 100px 0 0;
+  padding: 100px 0 0;
 }
 
 .two-columns {
@@ -132,7 +132,7 @@ color: #2f80ed;
   color: #000000; 
   display: flex;
   align-items: center;
-  margin: 100px 0;
+  padding: 100px 0;
   flex-direction: column;
 }
 
@@ -187,6 +187,7 @@ padding: 0;
 /* feynman */
 .feynman {
   background-color: #f2f2f2;
+  margin: 0;
   position: relative;
   color: #000000;
   display: flex;
@@ -226,4 +227,31 @@ padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+
+/* kaufman */
+.kaufman {
+  padding: 90px 0;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: #ffffff;
+}
+
+.section-subtitle_theme_dark {
+  color:#ffffff;
+}
+
+.table__cell_theme_dark {
+  padding-top: 80px;
+  width: 200px;
+}
+
+.kaufman__triangle {
+  
 }
