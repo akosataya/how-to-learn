@@ -17,13 +17,6 @@
   padding-left: 64px;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .logo {
   width: 183px;
   height: 32px;
@@ -136,7 +129,7 @@ color: #2f80ed;
 
 /* digits */
 .digits {
-  color: #000000; 
+  color: #000000;
   display: flex;
   align-items: center;
   padding: 100px 0;
@@ -265,6 +258,8 @@ z-index: 1;
 .table__cell_theme_dark {
   padding-top: 80px;
   width: 200px;
+  margin-right: 0;
+  color: #ffffff;
 }
 
 .table__text_theme_dark {
