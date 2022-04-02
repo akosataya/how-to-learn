@@ -19,17 +19,16 @@
 
 .logo {
   width: 183px;
-  height: 32px;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
-  left: 64px;
+  height: 32px;
 }
 
 .header__title {
-  width: 730px;
+  max-width: 730px;
   margin: 0;
   padding: 0;
   font-size: 102px;
@@ -39,7 +38,7 @@
 }
 
 .header__subtitle {
-  width: 388px;
+  max-width: 388px;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -52,8 +51,8 @@
 }
 
 .header__link {
-text-decoration: none;
-color: #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -97,7 +96,7 @@ color: #2f80ed;
 .two-columns__brief {
   margin: 0;
   padding: 0;
-  width: 175px;
+  max-width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -206,7 +205,7 @@ z-index: 1;
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
   margin: 100px 0 0;
   padding: 0;
   line-height: 1.15;
@@ -291,6 +290,7 @@ z-index: 1;
   padding: 60px 0 40px;
   justify-content: center;
   color: #ffffff;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -310,7 +310,7 @@ z-index: 1;
   width: 183px;
   height: 35px;
   align-items: flex-start;
-  opacity: 15%;
+  opacity: 35%;
 }
 
 .footer__author {
@@ -334,8 +334,8 @@ z-index: 1;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
   padding: 0;
+  list-style-type: none;
 }
 
 .footer__social-icon {
